@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS 436 Program 4</title>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous">
+    </script>
+  </head>
+  <body>
+
+    <p>
+      <p>
+      First Load the Data
+        <br>
+        <input type="button" id="load" value="Load Data">
+      </p>
+      <p>
+      You can also clear the data
+        <br>
+        <input type="button" id="clear" value="Clear Data">
+      </p>
+    </p>
+    <p>
+      <form id="form" action="/query" method="post">
+        <input id="first" type="text" name="first" placeholder="First name"><br>
+        <input id="last" type="text" name="last" placeholder="Last name"><br>
+        <input type="submit" name="submit" value="submit">
+      </form>
+    </p>
+
+    <div id="test"></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
